@@ -15,6 +15,7 @@ export class AppServiceService {
     }else{
       this.ROOT_URL = 'api'
     }
+    //this.ROOT_URL = 'http://localhost:8080'
   }
 
   initializeDB(){
